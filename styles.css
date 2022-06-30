@@ -1,0 +1,48 @@
+:root {
+    --main-height: 33vw;
+    --main-width: 33vw;
+}
+
+body {
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+.right-top-container{
+    background-color: grey;
+    height: var(--main-height);
+    width: var(--main-width);
+}
+.left-top-container{
+    background-color: blue;
+    height: var(--main-height);
+    width: var(--main-width);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.middle-container{
+    background-color: aquamarine;
+    height: var(--main-height);
+    width: var(--main-width);
+    position: absolute;
+    top: var(--main-height);
+    left: var(--main-width);
+}
+.right-bottom-container{
+    background-color: blueviolet;
+    height: var(--main-height);
+    width: var(--main-width);
+    position: absolute;
+    top: calc(var(--main-height)*2);
+}
+.left-bottom-container{
+    background-color: orange;
+    height: var(--main-height);
+    width: var(--main-width);
+    position: absolute;
+    top: calc(var(--main-height)*2);
+    right: 0px;
+    
+}
